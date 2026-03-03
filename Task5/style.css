@@ -1,0 +1,132 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body, html {
+  height: 100vh;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.navbar {
+  width: 100%;
+  height: 80px;
+  padding: 0 5%;
+}
+
+.logo {
+  display: inline-block;
+  width: 20%;
+  height: 80px;
+  vertical-align: middle;
+}
+
+.logo img {
+  height: 80px; /* Fits comfortably in 80px navbar */
+  margin-top: 10px;
+  display: block;
+  cursor: pointer;
+
+}
+
+.nav-links {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.nav-links li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.user-profile {
+  display: inline-block;
+  width: 20%;
+  text-align: right;
+  vertical-align: middle;
+  margin: 10px;
+}
+
+.username-btn {
+  background-color: #e3f2fd;
+  color: #2196f3;
+  padding: 12px 25px;
+  border-radius: 12px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.hero {
+  height:calc(100vh - 80px);
+  width: 100%;
+  padding: 0 8%;
+  display: block;
+}
+
+.hero-left {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+  padding-top: 12vh;
+}
+
+.hero-right {
+  display: inline-block;
+  width: 50%;
+  height: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3.8rem;
+  color: black;
+  line-height: 1.1;
+  margin-bottom: 25px;
+  font-weight: 800;
+}
+
+.highlight {
+  color: #2196f3;
+}
+
+.hero-description {
+  font-size: 1.2rem;
+  color: black;
+  width: 90%;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.cta-button {
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  padding: 18px 40px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+  /* box-shadow: 0 8px 20px rgba(33, 150, 243, 0.2); */
+}
+
+.hero-img {
+  /* max-width: 90%; */
+  height: 80%;
+  margin-top: 5vh;
+}
