@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task11</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="container flex align-center justify-between">
+      <div class="logo">Thala <span class="text-blue">7.</span></div>
+
+      <ul class="nav-links flex">
+        <li><a href="#">Home</a></li>
+        <li><a href="#product">About</a></li>
+        <li><a href="#">Brands</a> <i class="fas fa-chevron-down nav-arrow"></i></li>
+        <li><a href="#">More</a> <i class="fas fa-chevron-down nav-arrow"></i></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+
+      <div class="nav-icons flex align-center">
+        <div class="search-bar">
+          <i class="fas fa-search"></i>
+          <input type="text" class="search-input" placeholder="Search">
+        </div>
+        <div class="cart-icon"><i class="fas fa-shopping-bag"></i> 0</div>
+        <div class="profile-pic">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAzBE_P3rPclK8gJnC-y1Mq7kNOvyL8yUHlg&s"
+            alt="Profile" class="profile-img">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="landing" class="page-section">
+      <div class="container hero-section flex align-center">
+        <div class="hero-content">
+          <p class="brand-text">S E V E N <br><span class="brand-subtitle">BY M.S. DHONI</span></p>
+          <h1>7!! Thala For <br>a <span class="text-orange">Reason!</span></h1>
+          <p class="desc">Lorem ipsum dolor sit amet consectetur. Pretium quisque lorem feugiat justo at ut orci nisi.
+          </p>
+          <button class="btn btn-dark">Shop Now</button>
+        </div>
+        <div class="hero-image-wrapper">
+          <img src="sneaker-main.png" alt="Thala 7 Sneaker" class="floating-shoe">
+        </div>
+      </div>
+
+      <div class="service-overview">
+        <div class="container flex justify-between align-center">
+          <div class="service-item">
+            <i class="far fa-comments fa-2x"></i>
+            <div>
+              <h3>2k+</h3>
+              <p>Reviews</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-users fa-2x"></i>
+            <div>
+              <h3>30k+</h3>
+              <p>Customers</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <i class="far fa-star fa-2x"></i>
+            <div>
+              <h3>High</h3>
+              <p>Quality</p>
+            </div>
+          </div>
+          <div class="service-item">
+            <i class="fas fa-star-half-alt fa-2x"></i>
+            <div>
+              <h3>4.5/5</h3>
+              <p>Rating</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="product" class="page-section container">
+      <div class="breadcrumb">
+        Home > THALA FOR A REASON > Seven By M.S.Dhoni Women's Hogun Multi-Color Running Shoes
+      </div>
+
+      <div class="product-layout flex">
+        <div class="product-gallery-section">
+          <div class="product-main-image main-bg">
+            <img src="sneaker-main.png" alt="Hogun Running Shoe">
+          </div>
+        </div>
+
+        <div class="product-info-section">
+          <h2>Seven By M.S.Dhoni <br>Women's Hogun Multi-Color <br>Running Shoes</h2>
+          <p class="desc">For exceptional fit, feel and smooth transitions get going with these dual mid sole technology
+            shoes constructed with molded EVS sock liner, gel at heel area, rubber outsole, fused upper and
+            breathable...</p>
+
+          <div class="price-section flex align-center">
+            <div class="price-box text-blue">₹ 1,334</div>
+            <div class="tax-info">
+              <div class="discount-text">Save 12%</div>
+              <div class="tax-desc">Inclusive of all Taxes</div>
+            </div>
+          </div>
+
+          <div class="actions flex">
+            <div class="qty-dropdown flex align-center">
+              2 <i class="fas fa-chevron-down qty-arrow"></i>
+            </div>
+            <button class="btn btn-orange btn-large"><i class="fas fa-shopping-bag"></i> ADD TO CART</button>
+          </div>
+        </div>
+      </div>
+
+      <section class="full-width-gallery">
+        <div class="scroll-container flex">
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view1"></div>
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view2"></div>
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view3"></div>
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view4"></div>
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view5"></div>
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view6"></div>
+          <div class="scroll-item main-bg"><img src="sneaker-main.png" alt="view7"></div>
+        </div>
+      </section>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="cart" class="page-section container">
+
+      <div class="cart-layout flex">
+
+        <div class="cart-items-wrapper">
+          <div class="cart-left-top">
+            <h2 class="section-title" style="margin-bottom: 30px;">Shopping Cart</h2>
+            <table class="cart-table">
+              <thead>
+                <tr>
+                  <th>Product</th>
+                  <th>Quantity</th>
+                  <th>Price</th>
+                  <th></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Seven By M.S.Dhoni W...</td>
+                  <td>- 1 +</td>
+                  <td>₹4,999</td>
+                  <td><i class="fas fa-times text-red remove-icon"></i></td>
+                </tr>
+                <tr>
+                  <td>Seven By M.S.Dhoni W...</td>
+                  <td>- 1 +</td>
+                  <td>₹4,999</td>
+                  <td><i class="fas fa-times text-red remove-icon"></i></td>
+                </tr>
+                <tr>
+                  <td>Seven By M.S.Dhoni W...</td>
+                  <td>- 1 +</td>
+                  <td>₹4,999</td>
+                  <td><i class="fas fa-times text-red remove-icon"></i></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div class="bottom-container">
+            <a href="#product" class="continue-shopping"><i class="fas fa-chevron-left"></i> Continue Shopping</a>
+          </div>
+        </div>
+
+        <div class="cart-summary-wrapper">
+          <div class="order-summary-card">
+            <div class="coupon-box flex">
+              <input type="text" placeholder="COUPON CODE">
+              <button class="btn btn-blue">Apply Coupon</button>
+            </div>
+
+            <div class="summary-details">
+              <div class="summary-row flex justify-between"><span>Sub Total</span> <span>₹4,700</span></div>
+              <div class="summary-row flex justify-between"><span>Taxes(if applicable)</span> <span>₹199</span></div>
+              <div class="summary-row flex justify-between"><span>Discount</span> <span>₹0</span></div>
+              <div class="summary-row flex justify-between total-row"><span>Total</span> <span>₹4,999</span></div>
+            </div>
+          </div>
+
+          <button class="btn btn-orange btn-block">Pay Now ₹4,999</button>
+          <div class="trust-badges flex justify-center align-center">
+            <img
+              src="https://img.freepik.com/premium-vector/secure-ssl-encryption-logo-secure-connection-icon-vector-illustration- ssl-certificate-icon_526569-865.jpg"
+              alt="Secure">
+            <img class="razorpay"
+              src="https://cdn.iconscout.com/icon/free/png-512/free-razorpay-logo-icon-svg-download-png-1399875.png?f=webp&w=512"
+              alt="Razorpay">
+            <img
+              src="https://img.freepik.com/premium-vector/secure-ssl-encryption-logo-secure-connection-icon-vector-illustration-ssl-certificate-icon_526569-865.jpg"
+              alt="Secure">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <hr class="section-divider">
+
+    <section id="checkout" class="page-section container">
+      <div class="breadcrumb checkout-breadcrumb">Checkout</div>
+
+      <div class="checkout-layout flex">
+        <div class="checkout-forms">
+          <div class="form-group">
+            <h3>Contact Details</h3>
+            <label>Email ID</label>
+            <input type="email" placeholder="John Doe" class="form-input">
+          </div>
+
+          <div class="form-group">
+            <h3>Payment</h3>
+
+
+            <div class="card-details-form">
+              <div class="payment-tabs flex">
+                <div class="pay-tab active"><i class="far fa-credit-card"></i> Card</div>
+                <div class="pay-tab"><i class="fab fa-bitcoin"></i> Crypto</div>
+                <div class="pay-tab"><i class="fas fa-university"></i> Bank</div>
+                <div class="pay-tab"><i class="fas fa-ellipsis-v"></i></div>
+              </div>
+              <label>Card Number</label>
+              <input type="text" placeholder="John Doe" class="form-input">
+
+              <div class="form-row">
+                <div class="form-col">
+                  <label>Expiry</label>
+                  <input type="text" placeholder="MM/YY" class="form-input">
+                </div>
+                <div class="form-col">
+                  <label>CVC</label>
+                  <input type="password" placeholder="***" class="form-input">
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-col">
+                  <label>Country</label>
+                  <select class="form-input">
+                    <option>India</option>
+                  </select>
+                </div>
+                <div class="form-col">
+                  <label>ZIP</label>
+                  <input type="text" placeholder="XXXXX" class="form-input">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="checkout-sidebar">
+          <h2 class="sidebar-title">Order Summary</h2>
+
+          <div class="order-summary-card card-elevated">
+            <label>Enter Coupon Code</label>
+            <div class="coupon-box flex">
+              <input type="text" placeholder="COUPON CODE">
+              <button class="btn btn-blue">Apply Coupon</button>
+            </div>
+
+            <div class="summary-details">
+              <div class="summary-row flex justify-between"><span>Sub Total</span> <span>₹4,700</span></div>
+              <div class="summary-row flex justify-between"><span>Taxes(if applicable)</span> <span>₹199</span></div>
+              <div class="summary-row flex justify-between"><span>Discount</span> <span>₹0</span></div>
+              <div class="summary-row flex justify-between total-row"><span>Total</span> <span>₹4,999</span></div>
+            </div>
+          </div>
+
+          <button class="btn btn-orange btn-block">Pay Now ₹4,999</button>
+          <div class="trust-badges flex justify-center align-center">
+            <img
+              src="https://img.freepik.com/premium-vector/secure-ssl-encryption-logo-secure-connection-icon-vector-illustration- ssl-certificate-icon_526569-865.jpg"
+              alt="Secure">
+            <img class="razorpay"
+              src="https://cdn.iconscout.com/icon/free/png-512/free-razorpay-logo-icon-svg-download-png-1399875.png?f=webp&w=512"
+              alt="Razorpay">
+            <img
+              src="https://img.freepik.com/premium-vector/secure-ssl-encryption-logo-secure-connection-icon-vector-illustration-ssl-certificate-icon_526569-865.jpg"
+              alt="Secure">
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+</body>
+
+</html>
