@@ -17,5 +17,5 @@ let A = P * (1 + (r / n)) ** (n * t);
 // Calculate actual interest earned
 let interest = A - P;
 
-console.log(`Total amount after ${t} years: ${A.toFixed(2)}`);
-console.log(`Compound interest earned: ${interest.toFixed(2)}`);
+console.log(`Total amount after ${t} years: ${A}`);
+console.log(`Compound interest earned: ${interest}`);
