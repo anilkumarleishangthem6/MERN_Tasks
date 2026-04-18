@@ -6,12 +6,12 @@ let count = 0;
 let total = 0;
 
 const services = [
-  { name: "Dry Cleaning", price: 200, img: "Img/img1.png" },
-  { name: "Ironing", price: 100, img: "Img/img2.png" },
-  { name: "Wedding Dress Cleaning", price: 250, img: "Img/img3.png" },
-  { name: "Wash & Fold", price: 150, img: "Img/img4.png" },
-  { name: "Stain Removal", price: 100, img: "Img/img5.png" },
-  { name: "Pressure Washing", price: 300, img: "Img/img6.png" }
+  { name: "Dry Cleaning", price: 200, img: "Img/img1.jpg" },
+  { name: "Ironing", price: 100, img: "Img/img2.jpg" },
+  { name: "Wedding Dress Cleaning", price: 250, img: "Img/img3.jpg" },
+  { name: "Wash & Fold", price: 150, img: "Img/img4.jpg" },
+  { name: "Stain Removal", price: 100, img: "Img/img5.jpg" },
+  { name: "Pressure Washing", price: 300, img: "Img/img6.jpg" }
 ];
 
 let currentIndex = 0;
